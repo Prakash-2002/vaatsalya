@@ -1,3 +1,16 @@
+function toggleSchoolText(button) {
+    const text = document.getElementById("schoolMoreText");
+    if (text.style.display === "none") {
+      text.style.display = "block";
+      button.textContent = "Show Less";
+    } else {
+      text.style.display = "none";
+      button.textContent = "Know More";
+    }
+  }
+
+
+
 (function ($) {
     "use strict";
 
